@@ -1,12 +1,10 @@
-import { useState } from 'react'
-import './App.css'
+import MyComponent from "./digital-oclock"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-     
+     <MyComponent></MyComponent>
     </>
   )
 }
